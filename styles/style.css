@@ -35,6 +35,7 @@
   width: 730px;
   font-size: 102px;
   font-weight: 600;
+  margin: 0;
   margin-left: 64px;
   line-height: 96px;
   z-index: 3000;
@@ -60,6 +61,7 @@
 }
 
 .header__subtitle {
+  margin: 0;
   position: absolute;
   left: 64px;
   bottom: 30px;
@@ -71,6 +73,189 @@
 }
 
 .header__link {
-text-decoration: none;
-color: #2f80ed;
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.description {
+  margin-top: 100px;
+}
+
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.two-columns__main-text {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__brief {
+  margin: 0;
+  width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+}
+
+.two-columns__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.two-columns__paragraph + .two-columns__paragraph {
+  margin-top: 30px;
+}
+
+.two-columns__span-accent {
+  font-weight: bold;
+}
+
+.digits {
+  padding: 100px 0;
+}
+
+.section-title {
+  margin: 0 auto;
+  width: 60%;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.section-subtitle {
+  margin: 0 auto;
+  width: 60%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.table {
+  width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0;
+  z-index: 1000;
+  list-style: none;
+}
+
+.table__cell {
+  display: flex;
+  flex-direction: column;
+}
+
+.table__cell_size_m {
+  width: 250px;
+  padding-top: 60px;
+}
+
+.table__heading {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.table__text {
+  margin: 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  padding-top: 20px;
+}
+
+.feynman {
+  background-color: #f2f2f2;
+  min-height: 890px;
+  position: relative;
+}
+
+.feynman__title {
+  margin: 0 auto;
+  width: 648px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 100px;
+  position: relative;
+  z-index: 1000;
+}
+
+.feynman__subtitle {
+  margin: 0 auto;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  text-align: center;
+  padding-top: 70px;
+  position: relative;
+  z-index: 1000;
+}
+
+.feynman__main-illustration {
+  width: 867px;
+  height: 637px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.feynman__link {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #2f80ed;
+  position: absolute;
+  top: 50%;
+  right: 48px;
+}
+
+.table__cell_size_s {
+  width: 200px;
+  padding-top: 80px;
+}
+
+.kaufman {
+  padding: 90px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.kaufman_theme_dark {
+  background-color: black;
+  color: white;
+}
+
+.table_layer_top {
+  position: relative;
+  z-index: 1000;
+}
+
+.kaufman__triangle {
+  background-image: url("../images/kaufman-triangle.svg");
+  background-position: center;
+  background-size: cover;
+  width: 877px;
+  height: 877px;
+  position: absolute;
+  right: -210px;
+  top: 0;
+  z-index: 500;
 }
