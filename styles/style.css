@@ -26,6 +26,7 @@
 }
 
 .logo_place_header {
+  background-image: url("../images/logo_place_header.svg");
   position: absolute;
   top: 30px;
   left: 64px;
@@ -156,9 +157,6 @@
 .table__cell {
   display: flex;
   flex-direction: column;
-}
-
-.table__cell_size_m {
   width: 250px;
   padding-top: 60px;
 }
@@ -227,20 +225,43 @@
   right: 48px;
 }
 
-.table__cell_size_s {
-  width: 200px;
-  padding-top: 80px;
-}
-
 .kaufman {
   padding: 90px 0;
   position: relative;
   overflow: hidden;
+  background-color: black;
 }
 
-.kaufman_theme_dark {
-  background-color: black;
+.section-title_theme_dark {
   color: white;
+  position: relative;
+  z-index: 1000;
+}
+
+.section-subtitle_theme_dark {
+  color: white;
+  position: relative;
+  z-index: 1000;
+}
+
+.table_theme_dark {
+  color: white;
+  position: relative;
+  z-index: 1000;
+}
+
+.table__cell_theme_dark {
+  color: white;
+  position: relative;
+  z-index: 1000;
+}
+
+.table__cell_theme_dark {
+  color: white;
+  position: relative;
+  z-index: 1000;
+  width: 200px;
+  padding-top: 80px;
 }
 
 .table_layer_top {
@@ -259,3 +280,73 @@
   top: 0;
   z-index: 500;
 }
+
+.footer {
+  min-height: 350px;
+  background-color: black;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer__columns {
+  min-height: 250px;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column_copyright {
+  flex-basis: 711px;
+  justify-content: space-between;
+}
+
+.logo_place_footer {
+  background-image: url("../images/logo_place_footer.svg");
+}
+
+.footer__author {
+  margin: 18px 0;
+  color: white;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column-heading {
+  color: white;
+  margin: 0;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer__column-links {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0 16px;
+  list-style: none;
+}
+
+.footer__column-link {
+  text-decoration: none;
+  color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  padding-right: 10px;
+}
+
+
