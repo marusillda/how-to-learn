@@ -1,8 +1,8 @@
 .video__iframe {
   position: relative;
-  top: 50px;
-}
-
-.video__iframe+.video__iframe {
-  margin-left: 20px;
+  padding-top: 50px;
+  margin-bottom: -50px;
+  width: 515px;
+  height: 316px;
+  border: 0;
 }
