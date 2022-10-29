@@ -1,13 +1,16 @@
-# Проект "How to learn"
+# Проект "Научиться учиться"
 
-***Содержание:***
+## [Демонстрация сайта](https://marusillda.github.io/how-to-learn/)
+
+![Превью проекта](https://github.com/marusillda/how-to-learn/blob/main/how%20to%20learn.gif)
+
+## ***Содержание:***
 - [Описание проекта](#Description)
 - [Используемые технологии](#Technologies)
 - [Структура каталога проекта](#ProjectStructure)
 - [Оценка качества кода](#Quality)
 - [Планы по доработке проекта](#Planes)
 
-![Превью проекта](https://github.com/marusillda/how-to-learn/blob/main/how%20to%20learn.gif)
 
 # Описание проекта <a name="Description"></a>
 
